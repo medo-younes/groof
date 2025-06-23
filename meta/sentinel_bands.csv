@@ -1,0 +1,36 @@
+﻿band,mission,wavelength_nm,bandwidth_nm,snr,resolution_m,description
+B01,S2A,442.7,20,129,60,Coastal aerosol
+B02,S2A,492.7,64,154,10,Blue
+B03,S2A,559.8,35,168,10,Green
+B04,S2A,664.6,30,142,10,Red
+B05,S2A,704.1,14,117,20,Vegetation red edge
+B06,S2A,740.5,14,89,20,Vegetation red edge
+B07,S2A,782.8,20,105,20,Vegetation red edge
+B08,S2A,832.8,118,174,10,NIR
+B8A,S2A,864.7,20,72,20,Narrow NIR
+B09,S2A,945.1,20,114,60,Water vapour
+B11,S2A,1613.7,88,100,20,SWIR
+B12,S2A,2202.4,179,100,20,SWIR
+B01,S2B,442.2,20,129,60,Coastal aerosol
+B02,S2B,492.3,65,154,10,Blue
+B03,S2B,558.9,35,168,10,Green
+B04,S2B,664.9,31,142,10,Red
+B05,S2B,703.8,15,117,20,Vegetation red edge
+B06,S2B,739.1,14,89,20,Vegetation red edge
+B07,S2B,779.7,20,105,20,Vegetation red edge
+B08,S2B,832.9,115,174,10,NIR
+B8A,S2B,864,20,72,20,Narrow NIR
+B09,S2B,943.2,20,114,60,Water vapour
+B11,S2B,1610.4,93,100,20,SWIR
+B12,S2B,2185.7,181,100,20,SWIR
+AOT,ALL,None,None,None,10,Aerosol Optical Thickness map
+SCL,ALL,None,None,None,20,Scene classification data
+SNW,ALL,None,None,None,20,Snow probability
+CLD,ALL,None,None,None,20,Cloud probability
+CLP,ALL,None,None,None,160,Cloud probability
+CLM,ALL,None,None,None,160,Cloud masks (more)
+sunAzimuthAngles,ALL,None,None,None,5000,Sun azimuth angle
+sunZenithAngles,ALL,None,None,None,5000,Sun zenith angle
+viewAzimuthMean,ALL,None,None,None,5000,Viewing azimuth angle
+viewZenithMean,ALL,None,None,None,5000,Viewing zenith angle
+dataMask,ALL,None,None,None,None,The mask of data/no data pixels (more).
