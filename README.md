@@ -10,20 +10,39 @@
 
 
 ## Spectral Indices Employed:
-- Normalized Difference Vegetation Index (NDVI)
-- Enhanced Vegetation Index (EVI)
-- Built-up Index (BUI)
-- Normalized Difference Water Index (NDWI)
+Here is the numbered list with each item followed by its full name or corresponding Google Earth Engine (GEE) band:
+
+1. **SAVI** – Soil Adjusted Vegetation Index
+2. **NDVI** – Normalized Difference Vegetation Index
+3. **EVI** – Enhanced Vegetation Index
+4. **NDPI** – Normalized Difference Phenology Index *(Note: not standard; sometimes used for vegetation dynamics)*
+5. **ENDISI** – Enhanced Normalized Difference Impervious Surface Index *(likely a custom or variant index)*
+6. **NBI** – Normalized Built-up Index
+7. **BU** – Built-up Index *(may refer to a simplified built-up mask or raw band-based threshold)*
+8. **B2** – Sentinel-2 Band 2 (Blue, 490 nm)
+9. **B4** – Sentinel-2 Band 4 (Red, 665 nm)
+10. **MNDWI** – Modified Normalized Difference Water Index
+11. **B3** – Sentinel-2 Band 3 (Green, 560 nm)
+12. **MBI** – Modified Built-up Index 
+13. **IBI** – Index-based Built-up Index
+14. **BSI** – Bare Soil Index
+
+
+
 
 
 ## Preliminary Results
 
-| Metric     | Roof  | Green Roof |
-|------------|-------|------------|
-| Precision  | 0.96  | 0.81       |
-| Recall     | 0.78  | 0.96       |
-| F1-Score   | 0.86  | 0.88       |
-| Support    | 114   | 114        |
+Results as of 23 June, 2025
+
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| Roof         | 0.88      | 0.82   | 0.85     | 502     |
+| Green Roof   | 0.83      | 0.89   | 0.86     | 502     |
+| **Accuracy** |           |        | 0.86     | 1004    |
+| Macro Avg    | 0.86      | 0.86   | 0.86     | 1004    |
+| Weighted Avg | 0.86      | 0.86   | 0.86     | 1004    |
+
 
 <img src="figures/cm.png" alt="drawing" width="400"/>
 <img src="figures/fi.png" alt="drawing" width="400"/>
@@ -32,3 +51,10 @@
 ## Binary Classification of Rooftop (Green Roof vs Roof)
 ![alt-text](figures/roof_classification.png)
 
+
+
+## Roadmap
+
+1. Increase repository of green roof training data
+2. Apply Convolutional Neural Networks (CNNs) for semantic segmentation
+3. Explore pan-sharpaning techniques to improve Sentinel-2 Data Resolution
