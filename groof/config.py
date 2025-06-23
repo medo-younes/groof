@@ -1,6 +1,5 @@
 from pathlib import Path
-import sys
-sys.path.append('../../../geoml')
+
 
 # Configure CORE Directories
 ROOT = Path('../')
