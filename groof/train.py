@@ -243,7 +243,8 @@ def compute_metrics(y_true, y_pred, y_proba, class_names):
         precision_score = precision_score(y_true, y_pred, average='weighted'),
         # roc_auc_score = roc_auc_score(y_true, y_proba, multi_class='ovr', average='weighted'),
         confusion = confusion_matrix(y_true, y_pred),
-        report = classification_report(y_true, y_pred, output_dict=True,  target_names= class_names),
+        report = classification_report(y_true, y_pred,  target_names= class_names),
+        report_df = pd.DataFrame(classification_report(y_true, y_pred, output_dict=True,  target_names= class_names)),
     )
 
 

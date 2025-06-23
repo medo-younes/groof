@@ -21,8 +21,13 @@ NDVI_MEDIAN = RAW / 'ndvi_median.tif'
 S2_MOSAIC = RAW / 's2.tif'
 S2_MEDIAN= RAW / 's2_median.tif'
 NDPI_MEDIAN = RAW / 'ndpi_median.tif'
-
-
+BSI_MEDIAN = RAW / 'bsi_median.tif'
+SAVI_MEDIAN = RAW / 'savi_median.tif'
+IBI_MEDIAN = RAW / 'ibi_median.tif'
+MNDWI_MEDIAN = RAW / 'mndwi_median.tif'
+NBI_MEDIAN = RAW / 'nbi_median.tif'
+MBI_MEDIAN = RAW / 'mbi_median.tif'
+ENDISI_MEDIAN = RAW / 'endisi_median.tif'
 
 # Reprojected Layerds
 evi_reproj_fp = str(EVI_MEDIAN).replace('raw', 'prc')

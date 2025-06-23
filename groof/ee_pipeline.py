@@ -7,6 +7,25 @@ import geemap
 
 
 
+def mask_s2_clouds(image):
+    # Sentinel-2 QA60 band flags:
+    # Bit 10: clouds
+    # Bit 11: cirrus
+    qa = image.select('QA60')
+
+    # Create bitmasks for clouds and cirrus
+    cloud_bit_mask = 1 << 10
+    cirrus_bit_mask = 1 << 11
+
+    # Both flags should be set to 0 (i.e., no cloud or cirrus)
+    mask = qa.bitwiseAnd(cloud_bit_mask).eq(0).And(
+           qa.bitwiseAnd(cirrus_bit_mask).eq(0))
+
+    # Return masked and scaled image
+    return image.updateMask(mask).copyProperties(image, ["system:time_start"])
+
+
+
 def within_bounds(asset, geom):
     
     # check if asset in an ee.Image
