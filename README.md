@@ -12,44 +12,21 @@
 ## Spectral Indices Employed:
 Here is the numbered list with each item followed by its full name or corresponding Google Earth Engine (GEE) band:
 
-<table>
-  <tr>
-    <th style="width: 20%;">Vegetation Index</th>
-    <th style="width: 30%;">Full Name</th>
-    <th style="width: 20%;">Built-up Index</th>
-    <th style="width: 30%;">Full Name</th>
-  </tr>
-  <tr>
-    <td>SAVI</td>
-    <td>Soil Adjusted Vegetation Index</td>
-    <td>NBI</td>
-    <td>Normalized Built-up Index</td>
-  </tr>
-  <tr>
-    <td>NDVI</td>
-    <td>Normalized Difference Vegetation Index</td>
-    <td>BU</td>
-    <td>Built-up Index</td>
-  </tr>
-  <tr>
-    <td>EVI</td>
-    <td>Enhanced Vegetation Index</td>
-    <td>MBI</td>
-    <td>Modified Built-up Index</td>
-  </tr>
-  <tr>
-    <td>NDPI</td>
-    <td>Normalized Difference Phenology Index</td>
-    <td>IBI</td>
-    <td>Index-based Built-up Index</td>
-  </tr>
-  <tr>
-    <td>ENDISI</td>
-    <td>Enhanced Normalized Difference Impervious Surface Index</td>
-    <td>BSI</td>
-    <td>Bare Soil Index</td>
-  </tr>
-</table>
+| Index   | Full Name                                                      | Type       |
+|---------|----------------------------------------------------------------|------------|
+| SAVI    | Soil Adjusted Vegetation Index                                 | Vegetation |
+| NDVI    | Normalized Difference Vegetation Index                         | Vegetation |
+| EVI     | Enhanced Vegetation Index                                      | Vegetation |
+| NDPI    | Normalized Difference Phenology Index                          | Vegetation |
+| ENDISI  | Enhanced Normalized Difference Impervious Surface Index        | Vegetation |
+| NBI     | Normalized Built-up Index                                      | Built-up   |
+| BU      | Built-up Index                                                 | Built-up   |
+| MBI     | Modified Built-up Index                                        | Built-up   |
+| IBI     | Index-based Built-up Index                                     | Built-up   |
+| BSI     | Bare Soil Index                                                | Built-up   |
+
+
+
 
 ## Preliminary Results
 
