@@ -12,23 +12,17 @@
 ## Spectral Indices Employed:
 Here is the numbered list with each item followed by its full name or corresponding Google Earth Engine (GEE) band:
 
-1. **SAVI** – Soil Adjusted Vegetation Index
-2. **NDVI** – Normalized Difference Vegetation Index
-3. **EVI** – Enhanced Vegetation Index
-4. **NDPI** – Normalized Difference Phenology Index *(Note: not standard; sometimes used for vegetation dynamics)*
-5. **ENDISI** – Enhanced Normalized Difference Impervious Surface Index *(likely a custom or variant index)*
-6. **NBI** – Normalized Built-up Index
-7. **BU** – Built-up Index *(may refer to a simplified built-up mask or raw band-based threshold)*
-8. **B2** – Sentinel-2 Band 2 (Blue, 490 nm)
-9. **B4** – Sentinel-2 Band 4 (Red, 665 nm)
-10. **MNDWI** – Modified Normalized Difference Water Index
-11. **B3** – Sentinel-2 Band 3 (Green, 560 nm)
-12. **MBI** – Modified Built-up Index 
-13. **IBI** – Index-based Built-up Index
-14. **BSI** – Bare Soil Index
-
-
-
+- **SAVI** – Soil Adjusted Vegetation Index
+- **NDVI** – Normalized Difference Vegetation Index
+- **EVI** – Enhanced Vegetation Index
+- **NDPI** – Normalized Difference Phenology Index 
+- **ENDISI** – Enhanced Normalized Difference Impervious Surface Index 
+- **NBI** – Normalized Built-up Index
+- **BU** – Built-up Index 
+- **MNDWI** – Modified Normalized Difference Water Index
+- **MBI** – Modified Built-up Index 
+- **IBI** – Index-based Built-up Index
+- **BSI** – Bare Soil Index
 
 
 ## Preliminary Results
